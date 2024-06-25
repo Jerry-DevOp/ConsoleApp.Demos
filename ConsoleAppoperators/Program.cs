@@ -48,7 +48,22 @@ Console.WriteLine($"Is {num1} Greater than or Equal {num2} {isGreaterThanOrEqual
 Console.WriteLine($"Is {num1} Less than or Equal {num2} {isLessThanOrEqualTo}");
 
 Console.WriteLine("********************************************End Logic operators****************************");
+Console.WriteLine("********************************************Start Compound operators****************************");
 
 //assignment operators
+int num3 = num1;
+num3 += num2;
+Console.WriteLine($"Increasing num3 by num2: {num2} is equal to: {num3}");
+//multiply
+num3 *= num2;
+Console.WriteLine($"Multiplying num3 by num2: {num2} is equal to: {num3}");
+
+//Division
+num3 /= num2;
+Console.WriteLine($"Dividing num3 by num2: {num2} is equal to: {num3}");
+
+//Subtraction
+num3 -= num2;
+Console.WriteLine($"Reducing num3 by num2: {num2} is equal to: {num3}");
 
 
