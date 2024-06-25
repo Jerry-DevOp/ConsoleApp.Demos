@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppVariablesDemo", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppUserInputDemo", "ConsoleAppUserInputDemo\ConsoleAppUserInputDemo.csproj", "{0599613E-114E-4714-A33D-FFAB7771B21B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppoperators", "ConsoleAppoperators\ConsoleAppoperators.csproj", "{6E2EC7C6-AD68-404F-BB6E-4A7CFB13D5AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppOperators", "ConsoleAppoperators\ConsoleAppOperators.csproj", "{6E2EC7C6-AD68-404F-BB6E-4A7CFB13D5AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
