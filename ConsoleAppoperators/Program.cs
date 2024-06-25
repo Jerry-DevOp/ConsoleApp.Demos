@@ -53,17 +53,17 @@ Console.WriteLine("********************************************Start Compound op
 //assignment operators
 int num3 = num1;
 num3 += num2;
-Console.WriteLine($"Increasing num3 by num2: {num2} is equal to: {num3}");
+Console.WriteLine($"Increasing num3 by num2({num2}) is equal to: {num3}");
 //multiply
 num3 *= num2;
-Console.WriteLine($"Multiplying num3 by num2: {num2} is equal to: {num3}");
+Console.WriteLine($"Multiplying num3 by num2({num2}) is equal to: {num3}");
 
 //Division
 num3 /= num2;
-Console.WriteLine($"Dividing num3 by num2: {num2} is equal to: {num3}");
+Console.WriteLine($"Dividing num3 by num2({num2}) is equal to: {num3}");
 
 //Subtraction
 num3 -= num2;
-Console.WriteLine($"Reducing num3 by num2: {num2} is equal to: {num3}");
+Console.WriteLine($"Reducing num3 by num2({num2}) is equal to: {num3}");
 
 
