@@ -22,10 +22,10 @@ Console.WriteLine("Please enter your salary");
 salary = Convert.ToDecimal(Console.ReadLine());
 
 
-Console.WriteLine("Please enter your gender(M or F");
+Console.WriteLine("Please enter your gender(M or F)");
 gender = Convert.ToChar(Console.ReadLine());
 
-Console.WriteLine("are you currently working?(true or false");
+Console.WriteLine("are you currently working?(true or false)");
 working = Convert.ToBoolean(Console.ReadLine());
 
 
@@ -36,4 +36,4 @@ Console.WriteLine($"Age: {age}");
 Console.WriteLine($"You are currently learning: {salary}");
 Console.WriteLine($"Your gender is : {gender}");
 Console.WriteLine($"Your employment status is : {working}");
-Console.WriteLine($"working years remaining: {workingYearsRemaining}");
+Console.WriteLine($"Number of working years remaining: {workingYearsRemaining}");
