@@ -1,9 +1,11 @@
 ﻿//Declare variable
-string firstName = string.Empty;
+// the ? says the variable allow nulls
+string? firstName = string.Empty;
 string lastName = string.Empty;
-int age = 0;
+// age initialized to zero by default
+int age;
+decimal salary;
 int retirementAge = 65;
-decimal salary = 0;
 char gender = char.MinValue;
 // bool automatically takes the value of false
 bool working = true;
