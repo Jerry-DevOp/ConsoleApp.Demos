@@ -38,7 +38,11 @@ Console.WriteLine("********************************************Start Do while lo
 
 sum = 0;
 whileCount = 0;
-do 
+Console.WriteLine("That was fun!!");
+Console.WriteLine("Let's play again with a for loop. ");
+
+
+do
 {
     
     Console.Write("Enter a number or -1 to exit :");
@@ -47,6 +51,7 @@ do
 
 }
 while(whileCount != -1);
+Console.WriteLine("");
 Console.WriteLine($"Greate the total sum is : {sum}");
 
 Console.WriteLine("********************************************End Do while loop**************************");
