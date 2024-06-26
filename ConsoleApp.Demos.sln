@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppOperators", "Cons
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppConditionalStatement", "ConsoleAppConditionalStatement\ConsoleAppConditionalStatement.csproj", "{275A4FCE-EC47-4DD9-B3A4-0277424C851F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppSimpleCalculator", "ConsoleAppSimpleCalculator\ConsoleAppSimpleCalculator.csproj", "{A78AA009-5988-47D6-95C7-3344E80AA651}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppSimpleCalculator", "ConsoleAppSimpleCalculator\ConsoleAppSimpleCalculator.csproj", "{A78AA009-5988-47D6-95C7-3344E80AA651}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppLoops", "ConsoleAppLoops\ConsoleAppLoops.csproj", "{B6AA9EB8-4EBB-4391-8DAD-4A3058386679}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppLoops", "ConsoleAppLoops\ConsoleAppLoops.csproj", "{B6AA9EB8-4EBB-4391-8DAD-4A3058386679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppExceptingHandling", "ConsoleAppExceptingHandling\ConsoleAppExceptingHandling.csproj", "{414D3221-78A3-41A8-A035-BD85654F6716}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{B6AA9EB8-4EBB-4391-8DAD-4A3058386679}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6AA9EB8-4EBB-4391-8DAD-4A3058386679}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6AA9EB8-4EBB-4391-8DAD-4A3058386679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{414D3221-78A3-41A8-A035-BD85654F6716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414D3221-78A3-41A8-A035-BD85654F6716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414D3221-78A3-41A8-A035-BD85654F6716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414D3221-78A3-41A8-A035-BD85654F6716}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
