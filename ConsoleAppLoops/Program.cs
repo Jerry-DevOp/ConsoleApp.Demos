@@ -33,4 +33,21 @@ while(whileCount != -1)
 Console.WriteLine($"Greate the total sum is : {sum}");
 
 Console.WriteLine("********************************************End of while loop**************************");
+Console.WriteLine("");
+Console.WriteLine("********************************************Start Do while loop**************************");
+
+sum = 0;
+whileCount = 0;
+do 
+{
+    
+    Console.Write("Enter another number or -1 to exit :");
+    whileCount = Convert.ToInt32(Console.ReadLine());
+    sum += whileCount;
+
+}
+while(whileCount != 0);
+Console.WriteLine($"Greate the total sum is : {sum}");
+
+Console.WriteLine("********************************************End Do while loop**************************");
 
