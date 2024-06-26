@@ -44,15 +44,12 @@ Console.WriteLine("Let's play again with a for loop. ");
 
 do
 {
-    
+    sum += whileCount;
     Console.Write("Enter a number or -1 to exit :");
     whileCount = Convert.ToInt32(Console.ReadLine());
-    sum += whileCount;
-
 }
 while(whileCount != -1);
 Console.WriteLine("");
 Console.WriteLine($"Greate the total sum is : {sum}");
-
 Console.WriteLine("********************************************End Do while loop**************************");
 
