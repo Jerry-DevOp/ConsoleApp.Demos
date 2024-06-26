@@ -22,15 +22,14 @@ Console.WriteLine("Then I will give you the sum");
 Console.WriteLine("Are you read let's go!!");
 int whileCount =0;
 int sum = 0;
-Console.Write("Enter a number :");
 while(whileCount != -1)
 {
+    Console.Write("Enter a number :");
     sum += whileCount;
-    whileCount = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Enter another number or -1 to exit :");
-
+    whileCount = Convert.ToInt32(Console.ReadLine()
+        );
 }
-Console.WriteLine($"Greate the total sum is : {sum}");
+Console.WriteLine($"Great the total sum is : {sum}");
 
 Console.WriteLine("********************************************End of while loop**************************");
 Console.WriteLine("");
@@ -50,6 +49,6 @@ do
 }
 while(whileCount != -1);
 Console.WriteLine("");
-Console.WriteLine($"Greate the total sum is : {sum}");
+Console.WriteLine($"Great the total sum is : {sum}");
 Console.WriteLine("********************************************End Do while loop**************************");
 
