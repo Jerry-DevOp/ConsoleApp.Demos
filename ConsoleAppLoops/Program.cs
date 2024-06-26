@@ -22,7 +22,7 @@ Console.WriteLine("Then I will give you the sum");
 Console.WriteLine("Are you read let's go!!");
 int whileCount =0;
 int sum = 0;
-Console.WriteLine("Enter a number");
+Console.Write("Enter a number :");
 while(whileCount != -1)
 {
     sum += whileCount;
@@ -41,12 +41,12 @@ whileCount = 0;
 do 
 {
     
-    Console.Write("Enter another number or -1 to exit :");
+    Console.Write("Enter a number or -1 to exit :");
     whileCount = Convert.ToInt32(Console.ReadLine());
     sum += whileCount;
 
 }
-while(whileCount != 0);
+while(whileCount != -1);
 Console.WriteLine($"Greate the total sum is : {sum}");
 
 Console.WriteLine("********************************************End Do while loop**************************");
