@@ -42,7 +42,56 @@ She said "I have your phone"
 
 Console.WriteLine(sentenceRaw);
 Console.WriteLine(sentenceRaw2);
+Console.WriteLine();
 
 // string interpolation
 string newString = $"{s1} {sentenceRaw2}";
 string newString2 = String.Format("literal strings {0}  {1}",s1,sentence);
+
+// the name of function prints thr name of the variable
+Console.WriteLine($"{nameof(newString)} : {newString}");   
+Console.WriteLine();
+
+// String manipulation and properties
+
+//Check if a string is null
+// use ISNULL
+
+string st2 = null ;
+string st3 = " " ;
+Console.WriteLine(string.IsNullOrEmpty(sentenceRaw2));
+Console.WriteLine($"is st2 empyt?: {string.IsNullOrEmpty(st2)} ");
+Console.WriteLine($"{string.IsNullOrEmpty(st3)} what is the length {st3.Length}");
+
+//check the length of the string
+
+Console.WriteLine($"Length of newstring :{newString.Length}");//propertie
+
+//Substrings
+
+string substring = newString.Substring(0,10);
+Console.WriteLine($"substring :{substring}");
+
+//split strings
+//split by a space
+var splitStrings = newString.Split(' ');
+
+for (int i = 0; i < splitStrings.Length; i++)
+{
+    Console.WriteLine(splitStrings[i]);
+}
+
+// replace method
+
+Console.WriteLine($"rplace every sapce in a sentence  *{newString.Replace(' ','*')}");
+
+//convert to string
+bool tip = true;
+
+string tipOutcome = tip.ToString();
+
+//changing the formating
+
+int money = 20000000;
+string cash = money.ToString("C");
+Console.WriteLine(cash);
