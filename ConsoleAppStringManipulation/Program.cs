@@ -94,4 +94,7 @@ string tipOutcome = tip.ToString();
 
 int money = 20000000;
 string cash = money.ToString("C");
+//the C inside coverts the int to be in a money format
+//it puts an 'R' before the value
 Console.WriteLine(cash);
+
